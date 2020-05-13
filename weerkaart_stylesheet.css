@@ -1,0 +1,464 @@
+.head {
+    background-color: #187fa5;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 80px;
+    opacity: 60%;
+}
+
+body {
+    background-image: url("IMG_1263.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 105%;
+}
+
+.homebutton {
+    background-color: #9f9fa0;
+    position: absolute;
+    width: 75px;
+    left: 75px;
+    top: 60px;
+    height: 20px;
+    text-align: center;
+    opacity: 60%;
+}
+
+.homebuttonactief {
+    background-color: #187fa5;
+    position: absolute;
+    width: 75px;
+    left: 75px;
+    top: 60px;
+    height: 20px;
+    text-align: center;
+    opacity: 60%;
+}
+
+.kaartbutton {
+    background-color: #9f9fa0;
+    position: absolute;
+    width: 75px;
+    left: 150px;
+    top: 60px;
+    height: 20px;
+    text-align: center;
+    opacity: 60%;
+}
+
+.kaartbuttonactief {
+    background-color: #187fa5;
+    position: absolute;
+    width: 75px;
+    left: 150px;
+    top: 60px;
+    height: 20px;
+    text-align: center;
+    opacity: 60%;
+}
+
+.ideebutton {
+    background-color: #9f9fa0;
+    position: absolute;
+    width: 75px;
+    left: 225px;
+    top: 60px;
+    height: 20px;
+    text-align: center;
+    opacity: 60%;
+}
+
+.ideebuttonactief {
+    background-color: #187fa5;
+    position: absolute;
+    width: 75px;
+    left: 225px;
+    top: 60px;
+    height: 20px;
+    text-align: center;
+    opacity: 60%;
+}
+
+.homebuttontext {
+    position: absolute;
+    width: 75px;
+    left: 75px;
+    top: 60px;
+    height: 20px;
+    text-align: center;
+}
+
+.kaartbuttontext {
+    position: absolute;
+    width: 75px;
+    left: 150px;
+    top: 60px;
+    height: 20px;
+    text-align: center;
+}
+
+.ideebuttontext {
+    position: absolute;
+    width: 75px;
+    left: 225px;
+    top: 60px;
+    height: 20px;
+    text-align: center;
+}
+
+.map {
+    position: absolute;
+    width: 360px;
+    height: 480px;
+    left: 100px;
+    top: 100px;
+}
+
+.leeuwarden {
+    position:absolute;
+    width: 10px;
+    top: 159px;
+    left: 327px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.heerenveen {
+    position:absolute;
+    width: 10px;
+    top: 200px;
+    left: 340px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.groningen {
+    position:absolute;
+    width: 10px;
+    top: 157px;
+    left: 397px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.assen {
+    position:absolute;
+    width: 10px;
+    top: 192px;
+    left: 399px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.emmen {
+    position:absolute;
+    width: 10px;
+    top: 229px;
+    left: 430px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.denhelder {
+    position:absolute;
+    width: 10px;
+    top: 200px;
+    left: 229px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.zwolle {
+    position:absolute;
+    width: 10px;
+    top: 275px;
+    left: 357px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.lelystad {
+    position:absolute;
+    width: 10px;
+    top: 277px;
+    left: 296px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.almelo {
+    position:absolute;
+    width: 10px;
+    top: 300px;
+    left: 410px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.amsterdam {
+    position:absolute;
+    width: 10px;
+    top: 299px;
+    left: 241px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.alkmaar {
+    position:absolute;
+    width: 10px;
+    top: 257px;
+    left: 226px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.apeldoorn {
+    position:absolute;
+    width: 10px;
+    top: 327px;
+    left: 344px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.denhaag {
+    position:absolute;
+    width: 10px;
+    top: 346px;
+    left: 185px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.utrecht {
+    position:absolute;
+    width: 10px;
+    top: 348px;
+    left: 264px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.rotterdam {
+    position:absolute;
+    width: 10px;
+    top: 374px;
+    left: 202px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.shertogenbosch {
+    position:absolute;
+    width: 10px;
+    top: 413px;
+    left: 279px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.nijmegen {
+    position:absolute;
+    width: 10px;
+    top: 388px;
+    left: 335px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.middelburg {
+    position:absolute;
+    width: 10px;
+    top: 443px;
+    left: 115px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.maastricht {
+    position:absolute;
+    width: 10px;
+    top: 554px;
+    left: 319px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.venlo {
+    position:absolute;
+    width: 10px;
+    top: 464px;
+    left: 362px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.eindhoven {
+    position:absolute;
+    width: 10px;
+    top: 455px;
+    left: 294px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.breda {
+    position:absolute;
+    width: 10px;
+    top: 432px;
+    left: 227px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.localpage {
+    background-color: #0f9cd3;
+    position:absolute;
+    width: 500px;
+    top: 110px;
+    left: 500px;
+    height: 500px;
+    display: none;
+    opacity: 50%;
+}
+
+.title {
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    top: 110px; 
+    left: 500px;
+    text-align: center;
+    display: none;
+}
+
+.temperatuur {
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    top: 200px; 
+    left: 850px;
+    text-align: center;
+    display: none;
+}
+
+.weericoon {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 180px; 
+    left: 520px;
+    display: none;
+}
+
+.wind {
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    top: 510px; 
+    left: 500px;
+    text-align: center;
+    display: none;
+}
+
+.zonop {
+    background-color: #0f9cd3;
+    position:absolute;
+    width: 200px;
+    top: 500px;
+    left: 250px;
+    height: 25px;
+    opacity: 50%;
+}
+
+.zonoptext {
+    position:absolute;
+    width: 200px;
+    top: 500px;
+    left: 250px;
+    height: 25px;
+    text-align: center;
+}
+
+.zononder {
+    background-color: #0f9cd3;
+    position:absolute;
+    width: 200px;
+    top: 500px;
+    left: 1000px;
+    height: 25px;
+    opacity: 50%;
+}
+
+.zonondertext {
+    position:absolute;
+    width: 200px;
+    top: 500px;
+    left: 1000px;
+    height: 25px;
+    text-align: center;
+}
+
+.opkomst {
+    height: 500px;
+    width: 500px;
+    top: 150px;
+    left: 475px;
+    position: absolute
+}
+
+.opkomsttext {
+    position:absolute;
+    width: 250px;
+    top: 400px;
+    left: 600px;
+    height: 25px;
+    text-align: center;
+}
+
+.op {
+    transform: rotate(90deg);
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 350px;
+    left: 350px;
+}
+
+.onder {
+    transform: rotate(270deg);
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 350px;
+    left: 1000px;
+}
+
+.search {
+    opacity: 50%;
+}

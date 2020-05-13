@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="weerkaart_stylesheet.css">
+    </head>
+    <body>
+        <header class="head"></header>
+        <div class="homebutton"></div>
+        <div class="kaartbuttonactief"></div>
+        <div class="ideebutton"></div>
+        <div class="homebuttontext"><a href="file:///C:/Users/fimpi/OneDrive/Documenten/visual%20studio%20code/weerapplicatie/home.html">home</a></div>
+        <div class="kaartbuttontext"><a href="file:///C:/Users/fimpi/OneDrive/Documenten/visual%20studio%20code/weerapplicatie/weerkaart.html">kaart</a></div>
+        <div class="ideebuttontext"><a href="file:///C:/Users/fimpi/OneDrive/Documenten/visual%20studio%20code/weerapplicatie/idee.html">idee</a></div>
+        <h1>Kaart</h1>
+
+
+
+        <img src="netherlands-303419_960_720.webp" class="map">
+        <div class="leeuwarden" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="heerenveen" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="groningen" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="assen" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="emmen" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="denhelder" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="zwolle" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="lelystad" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="almelo" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="amsterdam" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="alkmaar" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="apeldoorn" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="denhaag" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="utrecht" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="rotterdam" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="shertogenbosch" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="nijmegen" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="middelburg" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="maastricht" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="venlo" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="eindhoven" onmouseover="show()"onmouseout="hide()"></div>
+        <div class="breda" onmouseover="show()"onmouseout="hide()"></div>
+
+        <div class="localpage" id="localpage"></div>
+        <h2 class="title" id="title">in (naam plaats gaat hier) is het nu:</h2>
+        <h2 class="temperatuur" id="temperatuur">15°<br><br>heldere zon<br><br>0.0 mm/uur<br><br>47% luchtvochtig- heid</h2>
+        <img src="sun.png" class="weericoon" id="weericoon">
+        <h2 class="wind" id="wind">windkracht: 2<br>windrichting: Oost</h2>
+
+        <script>
+            function show() {
+                localpage = document.getElementById("localpage");
+                localpage.style.display = "block"
+                title = document.getElementById("title");
+                title.style.display = "block"
+                temperatuur = document.getElementById("temperatuur");
+                temperatuur.style.display = "block"
+                weericoon = document.getElementById("weericoon");
+                weericoon.style.display = "block"
+                wind = document.getElementById("wind");
+                wind.style.display = "block"
+            }
+
+            function hide() {
+                localpage = document.getElementById("localpage");
+                localpage.style.display = "none"
+                title = document.getElementById("title");
+                title.style.display = "none"
+                temperatuur = document.getElementById("temperatuur");
+                temperatuur.style.display = "none"
+                weericoon = document.getElementById("weericoon");
+                weericoon.style.display = "none"
+                wind = document.getElementById("wind");
+                wind.style.display = "none"
+            }
+        </script>
+    </body>
+</html>
